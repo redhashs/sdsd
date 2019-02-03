@@ -99,7 +99,7 @@ description:    Super-fast Jekyll framework
 # `/my-project`, without trailing slash.
 #
 # Default:      ""
-baseurl:        "/_app/_pages"
+baseurl:        ""
 
 # CSS path used in templates
 #
@@ -180,7 +180,7 @@ tc_large_image: true
 # Enable this will simply add <meta charset="utf-8"> to the head of your pages
 #
 # Default:      false
-force_utf_8:    false
+force_utf_8:    true
 
 # Link blog
 #
@@ -188,7 +188,7 @@ force_utf_8:    false
 # basically change your <link> value to external link you defined in your posts)
 #
 # Default:      false
-link_blog:      false
+link_blog:      true
 
 # Excerpts for RSS
 #
