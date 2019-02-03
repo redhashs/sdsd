@@ -78,35 +78,54 @@
 							</section>
 
 						<!-- Three -->
-							<section id="three">
-								<div class="container">
-									<h3>A Few Accomplishments</h3>
-									<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
-									<div class="features">
-										<article>
-											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
-											<div class="inner">
-												<h4>Possibly broke spacetime</h4>
-												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
-											</div>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
-											<div class="inner">
-												<h4>Terraformed a small moon</h4>
-												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
-											</div>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
-											<div class="inner">
-												<h4>Snapped dark matter in the wild</h4>
-												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
-											</div>
-										</article>
-									</div>
-								</div>
-							</section>
+						<div class="home">
+						  {% if site.theme_settings.header_text %}
+						  <div class="call-out"
+						  style="background-image: url('{{ site.baseurl }}/{{ site.theme_settings.header_text_feature_image }}')">
+						    {{ site.theme_settings.header_text }}
+						  </div>
+						  {% endif %}
+
+						  <div class="posts">
+						    {% for post in paginator.posts %}
+						    <div class="post-teaser">
+						      <header>
+						        <h1>
+						          <a class="post-link" href="{{ post.url | relative_url }}">
+						            {{ post.title }}
+						          </a>
+						        </h1>
+						        <p class="meta">
+						          {{ post.date | date: "%B %-d, %Y" }}
+						        </p>
+						      </header>
+						      <div class="excerpt">
+						        {{ post.excerpt }}
+						        <a class="button" href="{{ post.url | relative_url }}">
+						          {{ site.theme_settings.str_continue_reading }}
+						        </a>
+						      </div>
+						    </div>
+						    {% endfor %}
+						  </div>
+
+						  {% if paginator.total_pages > 1 %}
+						  <div class="pagination">
+						    {% if paginator.previous_page %}
+						    <a href="{{ paginator.previous_page_path | relative_url | replace: '//', '/' }}" class="button" >
+						      <i class="fa fa-chevron-left"></i>
+						      {{ site.theme_settings.str_previous_page }}
+						    </a>
+						    {% endif %}
+						    {% if paginator.next_page %}
+						    <a href="{{ paginator.next_page_path | relative_url | replace: '//', '/' }}" class="button" >
+						      {{ site.theme_settings.str_next_page }}
+						      <i class="fa fa-chevron-right"></i>
+						    </a>
+						    {% endif %}
+						  </div>
+						  {% endif %}
+						</div>
 
 						<!-- Four -->
 							<section id="four">
