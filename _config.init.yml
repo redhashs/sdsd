@@ -119,7 +119,7 @@ feed:           /feed.xml
 # URLs for these fields
 #
 # Default:      https://sparanoid.com
-url:            https://nsangw.github.io
+url:            https://sparanoid.com
 
 # Media assets URL
 #
