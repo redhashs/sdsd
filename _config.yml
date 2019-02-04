@@ -18,7 +18,7 @@ title: Basically Basic
 email: dugan.nash@mailinator.com
 description: "Your new default Jekyll theme"
 baseurl: ""  # the subpath of your site, e.g. /blog
-url: "http://nsangw.github.io"  # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://nsangw.github.io"  # the base hostname & protocol for your site, e.g. http://example.com
 author:
   name: Dugan Nash
   twitter: Towlette_Pettetucci
