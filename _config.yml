@@ -28,7 +28,7 @@ github_username: Towlette_Pettetucci
 logo: /assets/icons/basically-basic-logo-light.svg
 search: true
 search_full_content: true
-search_provider: algolia
+search_provider: lunr
 algolia:
   application_id: QB6HVGBSBA
   index_name: basically-basic
