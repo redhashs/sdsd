@@ -72,7 +72,7 @@ collections:
     output: true
     permalink: /:collection/:path/
 disqus:
-    shortname:my_disqus_nsangw
+    shortname:nsangw
 
 # Front Matter Defaults
 defaults:
