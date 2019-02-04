@@ -17,7 +17,7 @@ lang: en-US
 title: Basically Basic
 email: dugan.nash@mailinator.com
 description: "Your new default Jekyll theme"
-baseurl: "https://nsangw.github.io"  # the subpath of your site, e.g. /blog
+baseurl: ""  # the subpath of your site, e.g. /blog
 url: "https://nsangw.github.io"  # the base hostname & protocol for your site, e.g. http://example.com
 author:
   name: Dugan Nash
@@ -54,7 +54,7 @@ feed:
 
 # Pagination - https://jekyllrb.com/docs/pagination/
 paginate: 5
-paginate_path: "/page:num/"
+paginate_path: /page:num/
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
