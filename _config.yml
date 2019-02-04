@@ -13,6 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+sass:
+  add_charset: true
+encoding: utf-8
 lang: en-US
 title: Basically Basic
 email: dugan.nash@mailinator.com
