@@ -72,7 +72,7 @@ collections:
     output: true
     permalink: /:collection/:path/
 disqus:
-    shortname:rre
+    shortname:my_disqus_ree
 
 # Front Matter Defaults
 defaults:
