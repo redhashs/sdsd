@@ -71,6 +71,8 @@ collections:
   recipes:
     output: true
     permalink: /:collection/:path/
+disqus:
+shortname:rre
 
 # Front Matter Defaults
 defaults:
