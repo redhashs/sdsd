@@ -4,11 +4,10 @@
 
 .entry {
   @include clearfix();
-  margin-bottom: 2rem;
-  padding-bottom: 2rem;
+
 
   &:not(:last-child) {
-    border-bottom: 1px solid $border-color;
+  
   }
 
   a {
@@ -17,9 +16,9 @@
 }
 
 .entry-title {
-  @include fluid-type($min-vw, $max-vw, 18px, 24px);
+  @include fluid-type($min-vw, $max-vw, 35px, 40px);
   margin-bottom: 0.5rem;
-  color: tint($text-color, 25%);
+  color: tint($text-color, 0%);
   line-height: inherit;
 
   a {
@@ -42,7 +41,7 @@
     @include breakpoint(max-width $medium) {
       li {
         display: inline-block;
-        margin-right: 1.5rem;
+        
       }
     }
 
@@ -78,7 +77,8 @@
     word-wrap: break-word; /* break long words that could overflow */
 
     a:hover {
-      color: $accent-color;
+  
+	  text-decoration:underline;
     }
   }
 
@@ -112,8 +112,7 @@
   .entry-meta {
     @include breakpoint($medium) {
       float: right;
-      width: span(5 of 16 last);
-      padding-left: gutter(1 of 16);
+      
     }
   }
 
@@ -183,7 +182,7 @@
       ul {
         li {
           display: inline-block;
-          margin-right: 1.5rem;
+        
         }
       }
     }
@@ -222,9 +221,4 @@
   font-size: 80%;
 }
 
-/* Read more link */
-.more-link {
-  font-size: 75%;
-  font-weight: bold;
-  text-decoration: none;
-}
+

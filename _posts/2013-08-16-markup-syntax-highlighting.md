@@ -1,6 +1,6 @@
 ---
-title: "Markup: Syntax Highlighting"
-excerpt: "Post displaying the various ways one can highlight code blocks with Jekyll. Some options include standard Markdown, GitHub Flavored Markdown, and Jekyll's `{% highlight %}` tag."
+title: "삶의 순간은 삶의 여정 보다 더 위대하다."
+excerpt: "언제나 짜릿하게 언제나 더 신비롭게 끝없는 지루함 속에서 만나게 되는 인간의 위대한 순간들"
 last_modified_at: 2017-03-09T10:27:01-05:00
 tags: 
   - code
