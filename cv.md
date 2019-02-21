@@ -1,5 +1,5 @@
 ---
-title: Curriculum Vitæ
+title: Order
 layout: cv
 actions:
   - label: "Download as PDF"

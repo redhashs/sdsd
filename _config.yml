@@ -18,16 +18,15 @@ sass:
 encoding: utf-8
 lang: en-US
 title: DADA
-email: dugan.nash@mailinator.com
+email: nsangw@gmailr.com
 description: "Your new default Jekyll theme"
 baseurl: ""  # the subpath of your site, e.g. /blog
 url: https://nsangw.github.io  # the base hostname & protocol for your site, e.g. http://example.com
+github_username: nsangw
 author:
-  name: Dugan Nash
-  twitter: Towlette_Pettetucci
+  name: nsangw
+  twitter: nsangw
   picture: https://api.adorable.io/avatars/285/johndoe.png
-twitter_username: Towlette_Pettetucci
-github_username: Towlette_Pettetucci
 logo: /assets/icons/basically-basic-logo-light.svg
 search: true
 search_full_content: true
