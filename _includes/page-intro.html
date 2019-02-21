@@ -5,7 +5,7 @@
       {% assign intro_image = intro_image | relative_url %}
     {% endunless %}
     {% assign intro_image = intro_image | escape %}
-   
+
   {% endif %}
 
   <div class="inner">
@@ -13,6 +13,7 @@
       <h1 id="page-title" class="intro-title">{{ page.alt_title | default: page.title | default: site.title | markdownify | strip_html }}</h1>
       {% if page.sub_title %}
         <p class="intro-subtitle">{{ page.sub_title | markdownify | strip_html }}</p>
+      
       {% endif %}
 
       {% if page.date %}

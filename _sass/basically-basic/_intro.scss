@@ -2,10 +2,16 @@
    Page intro
    ========================================================================== */
 
+   @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+
+
 .intro {
   margin: 1rem 0;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  font-size: 18px;
+font-family: 'Nanum Gothic', sans-serif;
+
 }
 
 .intro-image {
@@ -46,8 +52,8 @@
 }
 
 .intro-subtitle {
-  @include fluid-type($min-vw, $max-vw, 18px, 28px);
-  font-style: italic;
+  @include fluid-type($min-vw, $max-vw, 15px, 20px);
+  font-weight: bold;
 }
 
 .intro-actions {
