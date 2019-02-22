@@ -44,7 +44,7 @@ font-family: 'Nanum Gothic', sans-serif;
 }
 
 .intro-title {
-  @include fluid-type($min-vw, $max-vw, 26px, 58px);
+  @include fluid-type($min-vw, $max-vw, 50px, 58px);
   margin-bottom: 1rem;
   color: tint($text-color, 25%);
   line-height: 1;
