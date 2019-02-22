@@ -19,7 +19,7 @@ encoding: utf-8
 lang: en-US
 title: DADA
 email: nsangw@gmailr.com
-description: "Your new default Jekyll theme"
+description: "Online data analysis"
 baseurl: ""  # the subpath of your site, e.g. /blog
 url: https://nsangw.github.io  # the base hostname & protocol for your site, e.g. http://example.com
 github_username: nsangw

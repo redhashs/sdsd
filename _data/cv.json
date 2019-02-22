@@ -1,12 +1,12 @@
 {
   "basics": {
-    "name": "Dugan Nash",
-    "label": "Very extravagant man",
+    "name": "Order",
+    "label": "데이터 분석 의뢰",
     "picture": "",
-    "email": "dugan.hash@mailinator.com",
-    "phone": "(555) 555-5555",
-    "website": "https://towlettepettetuc.ci",
-    "summary": "Nash is well versed in the Montoyan / Artesian Connection, preparation of grasshopper mash, and baking of grover loaves.",
+    "email": "nsangw@gmail.com",
+    "phone": "(010) 555-5555",
+    "website": "위 메일로 연락하실 수 있습니다.",
+    "summary": "아래는 연구 의뢰를 위한 가이드입니다. 위의 파일을 받으신 후 양식을 작성해 보내주시면 빠른 진행이 가능합니다",
     "location": {
       "address": "123 Sesame Street",
       "postalCode": "CA 94115",
@@ -14,18 +14,7 @@
       "countryCode": "US",
       "region": "California"
     },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "Towlette_Pettetucci",
-        "url": "https://twitter.com/Towlette_Pettetucci"
-      },
-      {
-        "network": "SoundCloud",
-        "username": "Towlette_Pettetucci",
-        "url": "https://soundcloud.com/Towlette_Pettetucci"
-      }
-    ]
+ 
   },
   "work": [
     {
@@ -112,17 +101,14 @@
   ],
   "interests": [
     {
-      "name": "The Information Superhighway",
-      "keywords": [
-        "Ferrets",
-        "Unicorns"
-      ]
+      "name": "의뢰 대상을 사전적으로 검사할 수 있는지 분석합니다.",
+      
     }
   ],
   "references": [
     {
-      "name": " Nannette Nananacci",
-      "reference": "It is my pleasure to recommend Dugan Nash, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+      
+      "reference": "의뢰 대상을 분석 후 결과를 리포트로 제공해드립니다."
     }
   ]
 }

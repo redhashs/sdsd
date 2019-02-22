@@ -1,15 +1,17 @@
 {% if cv.interests %}
   <div id="interests" class="entry">
     <header class="entry-header">
-      <h3 class="entry-title">Interests</h3>
+      <h3 class="entry-title">Pre-analysis</h3>
     </header>
 
     <div class="entry-content">
       {% for i in cv.interests %}
         <div class="taxonomy">
           {% if i.name %}
-            <h4 class="title">{{ i.name }}</h4>
+            <p class="title">{{ i.name }}</p>
           {% endif %}
+		  <blockquote class="reference">대상에 따라서 의뢰가 불가능할 수도 있습니다.
+		  </blockquote>
           {% if i.keywords %}
             <span class="keywords">{{ i.keywords | array_to_sentence_string }}</span>
           {% endif %}

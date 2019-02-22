@@ -2,13 +2,22 @@
 title: "About"
 layout: about
 ---
-
-Basically Basic is a [Jekyll theme](https://jekyllrb.com/docs/themes/) meant as a substitute for the default --- [Minima](https://github.com/jekyll/minima). Conventions and features found there are fully supported by **Basically Basic**, with a few enhancements thrown in for good measure:
-
-- Clean responsive design with [six customizable skins](#skin)
-- Curriculum Vitæ/Resume layout powered by [JSON data](http://registry.jsonresume.org/)
-- About page layout
-- Disqus Comments and Google Analytics support
-- SEO best practices via [Jekyll SEO Tag](https://github.com/jekyll/jekyll-seo-tag/)
-
-You can find the source code for this theme at: {% include icon-github.html username="mmistakes" %}/[jekyll-theme-basically-basic](https://github.com/mmistakes/jekyll-theme-basically-basic)
+**DADA는 무엇을 하나요?**<br>
+DADA는 Data의 결과가 아닌 다양한 Data 간의 관계를 파악하고 이를 통해 데이터가 만들어지는 과정을 연구합니다. <br>
+단순한 과거 데이터의 나열이 아닙니다.<br>
+온라인에서 Data가 형성되는 과정을 추적하고 여론이 형성되는 원리를 찾습니다. <br>
+다음은 DADA의 주요한 문제 설정입니다.<br>
+- 데이터를 생성하는 노드와 노드간의 관계를 파악
+- 데이터가 형성되는 과정을 추적.  
+<br>
+**어떻게 가능하죠?**<br>
+Gilles Deleuze는 차이와 반복이라는 저서에서 대상을 파악할 때 대상이 변화하며 낳는 차이를 강조합니다. <br>
+생산되는 Data 또한 끊임없이 변하며 차이를 만들어냅니다. <br>
+작은 차이가 계속되면 새로운 결과가 만들어집니다. <br>
+DADA는 이러한 작은 차이에 주목합니다.<br>
+이러한 차이를 바탕으로 Data간의 관계를 찾고 이를 바탕으로 특정한 Data가 생성되는 원리를 찾습니다.<br>
+<br>
+**어떤 문제를 해결할 수 있을까요?**<br>
+- 온라인에서 특정한 제품 및 서비스에 대한 여론이 형성되는 과정을 모르는 경우(마케팅) <br>
+- 사회 현상과 관련된 여론이 온라인에서 형성되는 과정을 알고 싶은 경우 (사회 연구)<br>
+- 특정한 키워드가 온라인에서 형성되는 과정을 알고싶은 경우(시장 조사)
