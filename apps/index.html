@@ -1,0 +1,66 @@
+---
+layout: default
+title:  "Open Source Ruby 'n' Rails Apps"
+---
+
+<!--
+<p>
+  Subscribe to the <a href="{{ site.url }}/apps/feed.xml">{{ page.title}} News Feed »</a>
+</p>
+-->
+
+
+<h1>{{ page.title }}</h1>
+
+
+{% include welcome-apps.html %}
+
+
+<h2>Ruby</h2>
+
+<div class='gallery'>
+{% for app in site.data.apps.ruby %}
+
+  <div class='app'>
+    <div class='app-title'>
+        {{ app.title }}
+    </div>
+    <div class='app-img'>
+        <img src="{{site.url}}/_data/apps/i/{{app.screenshot}}">
+    </div>
+    <div class='app-title'>
+       <a href="https://github.com/{{app.github}}">[Source]</a>
+       {% if app.demo_url %}
+         <a href="{{ app.demo_url}}">[Demo]</a>
+       {% endif %}
+    </div>
+  </div>
+
+{% endfor %}
+</div>
+
+
+
+<h2>Ruby on Rails</h2>
+
+<div class='gallery'>
+{% for app in site.data.apps.rails %}
+
+  <div class='app'>
+    <div class='app-title'>
+        {{ app.title }}
+    </div>
+    <div class='app-img'>
+        <img src="{{site.url}}/_data/apps/i/{{app.screenshot}}">
+    </div>
+    <div class='app-title'>
+       <a href="https://github.com/{{app.github}}">[Source]</a>
+       {% if app.demo_url %}
+         <a href="{{ app.demo_url}}">[Demo]</a>
+       {% endif %}
+    </div>
+  </div>
+
+{% endfor %}
+</div>
+

@@ -1,24 +1,99 @@
 ---
-layout: home
-paginate: true
-alt_title: "DATA Research "
-sub_title: ""
-
-
-introduction: |
-  데이터의 결과가 아닌 변화하는 과정을 연구합니다.<br>
-  연구 의뢰는 언제든 환영입니다.<br>
-  의뢰 받은 연구는 리포트 형식으로 제공됩니다.<br>
-  **nsangw@gmail.com**<br>
-  - 포털,온라인 매체, 커뮤니티, 소셜 미디어,여론 생성 과정 분석
-  - 온라인 시장 동향 추적
-
-actions:
-  - label: "Order"
-    icon: consult
-    url: "https://nsangw.github.io/cv.html"
-  - label: "Portfolio"
-    icon: profiles
-    url: "https://nsangw.github.io/posts/"
-
+layout: cards
+title:  "Welcome to Planet Ruby"
 ---
+
+<h1>{{ page.title }}</h1>
+
+
+<div class='cards'>
+
+<div>
+  <h2><a href="http://planetruby.herokuapp.com">Planet Ruby News Reader »</a></h2>
+  <p>
+     More than 101+ Ruby and Ruby on Rails Blogs 'n' News Sites.
+       Topics include:
+  </p>
+  <ul>
+    <li>News &amp; Opinions</li>
+    <li>Gems &amp; Open Source Apps</li>
+    <li>Links &amp; Podcasts</li>
+    <li>Hosting &amp; Delivery</li>
+    <li>and many more</li>
+  </ul>
+</div>
+
+<div>
+  <h2><a href="http://planetruby.github.io/gems">Ruby Gem of the Week Series »</a></h2>
+  <ul>
+    {% for post in site.posts limit:3 %}
+       <li>{{ post.title }}</li>
+    {% endfor %}
+      <li>and many more</li>
+  </ul>
+</div>
+
+<div>
+  <h2><a href="http://planetruby.github.io/books">Ruby Books &amp; Screencasts »</a></h2>
+  <ul>
+    {% for book in site.data.books.ruby limit:3 %}
+       <li>{{ book.title }}</li>
+    {% endfor %}
+      <li>and many more</li>
+  </ul>
+</div>
+
+<div>
+  <h2><a href="https://github.com/planetruby/awesome-events">Awesome Ruby Events »</a></h2>
+  <p>
+     A collection of awesome Ruby events (meetups, conferences, camps, etc.)
+     from around the world
+  </p>
+</div>
+
+<div>
+  <h2><a href="https://github.com/planetruby/awesome-rubies">Awesome Rubies »</a></h2>
+  <p>
+     A collection of awesome Rubies (compilers, interpreters, virtual machines, parsers,
+     doc generators, version managers, etc.)
+  </p>
+</div>
+
+<div>
+  <h2><a href="https://github.com/planetruby/awesome-activerecord">Awesome ActiveRecord »</a></h2>
+  <p>A collection of awesome ActiveRecord goodies, libraries, tools, extensions, guides, etc.
+  </p>
+</div>
+
+<div>
+  <h2><a href="http://planetruby.github.io/links">Ruby Links &amp; Bookmarks »</a></h2>
+  <ul>
+    {% for link in site.data.links.ruby limit:3 %}
+       <li>{{ link.title }}</li>
+    {% endfor %}
+      <li>and many more</li>
+  </ul>
+</div>
+
+<div>
+  <h2><a href="http://planetruby.github.io/apps">Open Source Ruby &amp; Rails Apps »</a></h2>
+  <ul>
+    {% for app in site.data.apps.ruby limit:3 %}
+       <li>{{ app.title }}</li>
+    {% endfor %}
+      <li>and many more</li>
+  </ul>
+</div>
+
+<div>
+  <h2><a href="http://planetruby.github.io/stars">Ruby Star of the Month Series (The World's Greatest Rubyists) »</a></h2>
+  <ul>
+    {% for star in site.stars limit:3 %}
+       <li>{{ star.title }}</li>
+    {% endfor %}
+      <li>and many more</li>
+  </ul>
+</div>
+
+</div><!-- cards -->
+

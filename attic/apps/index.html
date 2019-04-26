@@ -1,0 +1,35 @@
+---
+layout: default
+title:  "Open Source Ruby 'n' Rails Apps"
+---
+
+<p>
+  Subscribe to the <a href="{{ site.url }}/apps/feed.xml">{{ page.title}} News Feed »</a>
+</p>
+
+
+<h1>{{ page.title }}</h1>
+
+
+{% include welcome-apps.html %}
+
+
+<div class='gallery'>
+{% for app in site.apps %}
+
+  <div class='app'>
+    <div class='app-title'>
+      <a href="{{ site.url }}{{ app.url }}">
+        {{ app.title }}
+      </a>
+    </div>
+    <div class='app-img'>
+      <a href="{{ site.url }}{{ app.url }}">
+        <img src="{{site.url}}/i/{{app.screenshot}}">
+      </a>
+    </div>
+  </div>
+
+{% endfor %}
+</div>
+
