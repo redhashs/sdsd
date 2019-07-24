@@ -1,94 +1,48 @@
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
+# which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-sass:
-  add_charset: true
-encoding: utf-8
-lang: en-US
-title: DADA
-email: nsangw@gmailr.com
-description: "Online data analysis"
-baseurl: ""  # the subpath of your site, e.g. /blog
-url: https://nsangw.github.io  # the base hostname & protocol for your site, e.g. http://example.com
-github_username: nsangw
-author:
-  name: nsangw
-  twitter: nsangw
-  picture: https://api.adorable.io/avatars/285/johndoe.png
-logo: /assets/icons/basically-basic-logo-light.svg
-search: true
-search_full_content: true
-search_provider: lunr
-disqus:
-  shortname: nsangw
-algolia:
-  application_id: QB6HVGBSBA
-  index_name: basically-basic
-  search_only_api_key: 9d5014e5bbc77372547bce778dfa5663
-  powered_by: # true (default), false
+title: Your awesome title
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://yourdomain.com" # the base hostname & protocol for your site
 
-# Liquid
-liquid:
-  error_mode: strict
+social_sharing: true
+github_username:  jekyll
+google_analytic_id:
+disqus_name:
+
+permalink: /:categories/:title
+pagination:
+  enabled: true
+  per_page: 5
+  permalink: '/page/:num.html'
+  title: ':title - page :num'
+  sort_reverse: true
+
+autopages:
+  enabled: true
+  categories:
+    title: 'Posts in category :cat'
+  tags:
+    title: 'Posts tagged with :tag'
+  collections:
+    title: 'Posts in collection :coll'
+
+# jekyll seo tag settings
+logo: assets/images/example-image.png
+twitter:
+  username: jekyllrb
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-basically-basic
-plugins: # previously gems
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-paginate
-feed:
-  path: atom.xml
-
-# Pagination - https://jekyllrb.com/docs/pagination/
-paginate: 5
-paginate_path: /page:num/
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
-# Collections
-collections:
-  recipes:
-    output: true
-    permalink: /:collection/:path/
-
-# Front Matter Defaults
-defaults:
-  # _posts
-  - scope:
-      path: "_posts"
-      type: posts
-    values:
-      layout: post
-      read_time: true
-  # _recipes
-  - scope:
-      path: "_recipes"
-      type: recipes
-    values:
-      layout: post
-      read_time: true
+sass:
+  style: compressed

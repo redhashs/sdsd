@@ -1,16 +1,16 @@
 ---
-title: "About"
-layout: about
+layout: page
+title: About
+permalink: /about/
+show_in_nav: true
 ---
-**인도네시아의 컨텐츠 시장**<br>
-인도네시아의 서비스 및 컨텐츠, 플랫폼 시장에 대한 글
-- 자료를 퍼가실 때는 출처를 남겨주세요.
 
-<br>
-**IT 서비스 플랫**<br>
-눈길을 끄는 it 서비스 트렌드  <br>
+This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
 
-<br>
-**그외 잡다한 생각**<br>
-- 생각나는대로 적습니다.  <br>
-dd
+You can find the source code for the Jekyll new theme at:
+{% include icon-github.html username="jglovier" %} /
+[jekyll-new](https://github.com/jglovier/jekyll-new)
+
+You can find the source code for Jekyll at
+{% include icon-github.html username="jekyll" %} /
+[jekyll](https://github.com/jekyll/jekyll)
